@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(4, 4, 82);
+    height: 120vh;
+    background-attachment: scroll;
+}
+/* For Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97.5%;
+    padding: 20px;
+    background-color: blue;
+    border: 2px solid orange;
+    position: sticky;
+    top:5px;
+}
+.header-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+}
+.header-links a{
+    text-decoration: none;
+    font-style:italic ;
+    color: orange ;
+}
+.header-links a:hover{
+    font-size: larger;
+    transition: 1s;
+}
+/* For Paragraphs */
+.span-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+}
+.span-box span{
+    color: azure;
+    flex-basis: 200px;
+    flex-grow: 1;
+    font-size: xx-large;
+    border: 1px solid blue;
+    background-color: rgb(18, 2, 104);
+    padding: 100px;
+}
+/* For Box-One */
+.box-one{
+    display: flex;
+    justify-content: center;
+}
+.box-one-border{
+    padding: 120px;
+    background-color: blue;
+    border: 2px solid azure;
+}
+.box-one-border div{
+    padding: 30px;
+    background-color:orange;
+}
+/* For Box-Two */
+.box-two{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.box-two-border{
+    /* padding: 150px; */
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 2px solid azure;
+}
+.first{
+    display: flex;
+    justify-content: flex-start;
+}
+.first div{
+    /* padding: 100px; */
+    display: block;
+    width:100px;
+    height: 100px;
+    background-color: aqua;
+    justify-content: center;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.middle div{
+    /* padding: 100px; */
+    display: block;
+    width:100px;
+    height: 100px;
+    background-color: rgb(255, 230, 0);
+    justify-content: center;
+}
+.last{
+    display: flex;
+    justify-content: flex-end;
+}
+.last div{
+   /* padding: 100px; */
+    display: block;
+    width:100px;
+    height: 100px;
+    background-color: chartreuse;
+    justify-content: center;
+}
