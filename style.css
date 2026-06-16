@@ -35,6 +35,18 @@ body{
     font-size: larger;
     transition: 1s;
 }
+/* Menu Icon For Responsive */
+.menu-icon{
+    display: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.menu-icon img{
+    width: 32px;
+    height: 32px;
+}
 /* For Paragraphs */
 .span-box{
     display: flex;
@@ -115,4 +127,13 @@ body{
     height: 100px;
     background-color: chartreuse;
     justify-content: center;
+}
+@media(max-width:568px){
+    .header-links{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        padding-right: 20px;
+    }
 }
